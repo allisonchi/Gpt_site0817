@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Dropdown submenu styles */
+.dropdown-submenu {
+    position: relative;
+}
+
+/*.dropdown-submenu > a::after {
+    content: ">";
+    float: right;
+    margin-right: 10px; /* 適當增加箭頭的間距 */
+}*/
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+    margin-left: 0.1rem;
+    border-radius: 0.25rem; /* 子清單圓角 */
+    z-index: 1000; /* 確保子清單在最上層 */
+    min-width: 180px; /* 調整寬度，避免內容過窄 */
+}
+
+.dropdown-item {
+    white-space: nowrap; /* 防止文字自動換行 */
+    overflow: visible; /* 確保子清單不被裁切 */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #ffefd5;
+    padding: 3rem 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section .btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+/* Product Section */
+.products-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.products-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Store Info Section */
+.store-info-section {
+    background-color: #fff3f1;
+    padding: 2rem 0;
+}
+
+.store-info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Promotion Section */
+.promotion-section {
+    padding: 2rem 0;
+    background-color: #ffefd5;
+}
+
+.promotion-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer Section */
+.footer-section {
+    padding: 1.5rem 0;
+    background-color: #f8f9fa;
+    color: #666;
+}
+
+.footer-section p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #ff6f61;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
